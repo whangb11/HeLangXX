@@ -29,7 +29,7 @@
 3. 使用CyberSpace命名空间  
 `
 using namespace CyberSpace;
-`
+`  
 不过伟大的 __St.何__ 也允许这样使用CyberSpace命名空间  
 `
 CyberSpace::u8<int> a;
@@ -42,8 +42,18 @@ CyberSpace::u8<int> a;
 CyberSpace::u8<int> aU8Object;
 `  
 
-u8也支持列表初始化
+u8也支持列表初始化  
 `
-CyberSpace::u8<int> anotherU8Object={1,1,4,5,1,4};
+CyberSpace::u8<int> anotherU8Object1={1,1,4,5,1,4};
+//1 | 1 | 4 | 5 | 1 | 4
 `  
 
+以下初始化方式也是可行的  
+`
+CyberSpace::u8<int> anotherU8Object2(3)
+// 0 | 0 | 0 
+
+CyberSpace::u8<int> anotherU8Object2(3,13)
+// 13 | 13 | 13
+`  
+- 访问u8的内容
