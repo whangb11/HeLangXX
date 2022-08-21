@@ -35,7 +35,7 @@ using namespace CyberSpace;
 CyberSpace::u8<int> a;
 `
 # 简单的教程
-- 定义一个对象
+1 定义一个对象  
 赛博空间是包容且多变的，因此c++中的u8是泛型容器，实例化一个u8如下：  
 
 `
@@ -54,9 +54,14 @@ CyberSpace::u8<int> anotherU8Object1={1,1,4,5,1,4};
 `
 CyberSpace::u8<int> anotherU8Object2(3)
 // 0 | 0 | 0 
-
 CyberSpace::u8<int> anotherU8Object2(3,13)
 // 13 | 13 | 13
 `  
 
-- 访问u8的内容
+2 访问u8的内容  
+u8允许下标访问  
+`
+anotherU8Object1[3];
+//4
+`  
+因为作者
