@@ -7,6 +7,8 @@
 
 # 概述
 > 为什么不用c++呢
-> [——《蛾：一次赛博调查》](https://cultist.huijiwiki.com/wiki/%E6%96%87%E7%AB%A0)
+> [——《蛾：一次赛博调查》](https://cultist.huijiwiki.com/wiki/%E6%96%87%E7%AB%A0)  
+
+
 本工程使用会自己打字的5G键盘，花费 '1/1*4*51-4' 分钟完成  
 
