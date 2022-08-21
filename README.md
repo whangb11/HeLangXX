@@ -26,7 +26,7 @@
 #include"HeXX.hpp"
 `
 
-3. 使用CyberSpace命名空间
+3. 使用CyberSpace命名空间  
 `
 using namespace CyberSpace;
 `
@@ -35,7 +35,8 @@ using namespace CyberSpace;
 CyberSpace::u8<int> a;
 `
 # 简单的教程
-- 定义一个对象
+- 定义一个对象  
+
 赛博空间是包容且多变的，因此c++中的u8是泛型容器，实例化一个u8如下：
 `
 CyberSpace::u8<int> aU8Object;
