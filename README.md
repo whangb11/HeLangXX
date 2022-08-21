@@ -31,7 +31,6 @@
 using namespace CyberSpace;
 `
 不过伟大的 __St.何__ 也允许这样使用CyberSpace命名空间  
-
 `
 CyberSpace::u8<int> a;
 `
@@ -40,8 +39,10 @@ CyberSpace::u8<int> a;
 赛博空间是包容且多变的，因此c++中的u8是泛型容器，实例化一个u8如下：
 `
 CyberSpace::u8<int> aU8Object;
-`
+`  
+
 u8也支持列表初始化
 `
 CyberSpace::u8<int> anotherU8Object={1,1,4,5,1,4};
-`
+`  
+
