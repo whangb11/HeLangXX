@@ -76,6 +76,12 @@ anotherU8Object1[3];
 //4
 ```  
 因为作者尚未进行赛博大脑升级，所以，以u8为索引的下标访问暂未实现，同理，迭代器也尚未实现,因此u8暂不支持遍历for  
+不过可以通过`powerCon()`成员函数实现批量修改元素
+···
+u8<size_t> filler = { 1 };
+u8<uint32_t> keys(104);
+keys.powerCon(filler | 2ull | 6ull | 7ull | 11ull | 52ull | 57ull | 58ull | 65ull, 10);
+···
 欲输出u8， 可`std::cout<<anotherU8Object1`  
 
 3. 操作u8  
