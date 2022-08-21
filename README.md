@@ -17,26 +17,26 @@
 
 # 使用方法
 1. 下载代码  
-`
+```
 >git clone https://https://github.com/whangb11/HeLangXX
-`
+```
 
 2. 包含头文件  
-`
+```
 #include"HeXX.hpp"
-`
+```
 
 3. 使用CyberSpace命名空间  
-`
+```
 using namespace CyberSpace;
-`  
+```  
 不过伟大的 __St.何__ 也允许这样使用CyberSpace命名空间  
-`
+```
 CyberSpace::u8<int> a;
-`
+```
 # 简单的教程
 1. 定义一个对象  
-> __St.何__ 说，要有u8，就有了u8。
+> __St.何__ 说，要有u8，就有了u8。  
 > ——《赛博经·初始化 1 : 3》  
 
 赛博空间是包容且多变的，因此c++中的u8是泛型容器，实例化一个u8如下：  
