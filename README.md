@@ -54,6 +54,8 @@ CyberSpace::u8<int> anotherU8Object1={1,1,4,5,1,4};
 `
 CyberSpace::u8<int> anotherU8Object2(3)
 // 0 | 0 | 0 
+`  
+`
 CyberSpace::u8<int> anotherU8Object2(3,13)
 // 13 | 13 | 13
 `  
@@ -64,4 +66,5 @@ u8允许下标访问
 anotherU8Object1[3];
 //4
 `  
-因为作者
+因为作者尚未进行赛博大脑升级，以u8为索引进行下标访问暂未实现  
+
