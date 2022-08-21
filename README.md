@@ -1,2 +1,2 @@
 # HeLangXX
-HeLang in c plus plus
+何语言在c++中的尝试性实现  
