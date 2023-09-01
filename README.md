@@ -18,7 +18,7 @@
 # 使用方法
 1. 下载代码  
 ```
->git clone https://https://github.com/whangb11/HeLangXX
+>git clone https://github.com/whangb11/HeLangXX
 ```
 
 2. 包含头文件  
